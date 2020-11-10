@@ -1,40 +1,32 @@
+*{
+    background-color: antiquewhite
+}
 p{
-    color: #222;
+    color:darkgray;
     width:400px;
+    font-size: 10px;
+    font-family:"나눔스퀘어라운드";
+    text-align: center;
     
 }
 .list_description{
-    border-bottom: 1px solid;
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    font-weight: bold;
+    font-size: 25px;
+    color: cornflowerblue;
 }
 
-.disc_list{
-    list-style: disc;
-}
-
-.circle_list{
-    list-style:circle;
-}
-
-.square_list{
-    list-style:square;
-}
-
-.none_bullet{
-    list-style:none;
+#dog{
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    height: 200px;
 }
 
 ol li{
-    list-style: decimal-leading-zero;
-}
-
-.style_dl{
-    width: 400px;
-    overflow: auto;
-}
-
-.style_dl dt{
-    float: left;
-}
-.style_dl dd{
-    margin: 0 1em 0;
+    margin-left:20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: monospace
 }

@@ -1,0 +1,28 @@
+
+h1 {
+    width:300px;
+    border-bottom: 3px solid;
+    padding:5px;
+    text-align: center;
+    font-family: "나눔스퀘어라운드";
+    font-weight: bold;
+    
+}
+
+a {
+    text-decoration: none;
+    font-family: "나눔스퀘어라운드";
+    font-weight: bold;
+}
+
+a:visited {
+    color:darkorchid;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+a:link{
+    color:darkgreen;
+}
